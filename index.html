@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ren's World</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6a652ca8b2.js" 
+    crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logoo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Habbits</a></li>
+                <li><a href="#portfolio">My Top 3</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Ordinary Human</p>
+            <h1>Hi, i'm <span>Deren</span><br>Welcome to my <br> own page</h1>
+        </div>
+    </div>
+</div>
+<!-- ------------ABOUT---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">Who am i ?</h1>
+                <p class="abotme">
+                My full name is Fergiano Deren Ryandi. I was born on July 1, 2004 in Jakarta. Now I live in Cibitung,Bekasi. 
+                <br> I'm a student at Singaperbangsa University, Karawang. In the Informatics Department, Faculty of Computer Science
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Achievement')">Achievement</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Wild Rift</span><br>-Micro, Macro, and draft decision</li>
+                        <li><span>CoD Mobile</span><br>-Layout and Perks decision</li>
+                        <li><span>Legend of Runeterra</span><br>-Mastery all deck type</nr></li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Achievement">
+                    <ul>
+                        <li><span>2019</span><br>-Top 9 MP Global Leaderboard S3 (CODM)<br>-Top 5 Domi Pointmaker Major Series 2019 (CODM)</li>
+                        <li><span>2020</span><br>-Top 37 BR Global Leaderboard (CODM)</li>
+                        <li><span>2021-2022</span><br>-Glory receh S13<br>-Glory receh S18<br>-Glory receh S26</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2022-Current</span><br>Singaperbangsa Karawang University</li>
+                        <li><span>2018-2022</span><br>SMAN 1 Cibitung</li>
+                        <li><span>2015-2018</span><br>SMPN 1 Cikarang Barat</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------habbits----------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Habbits</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-bowl-food"></i>
+                <h2>Makan</h2>
+                <p>Mati dong kalo ga makan</p>
+                <a href="">x</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-moon"></i>
+                <h2>Tidur</h2>
+                <p>Tidur minimal 7 Jam</p>
+                <a href="">x</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Ngoding</h2>
+                <p>Latihan aja udah, biar ga kaku-kaku amat</p>
+                <a href="">x</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- ---------------top 3------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Top 3 music artist</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/chang.jpg">
+                <div class="layer">
+                    <h3>The Changcuters</h3>
+                    <p>Racun dari nyokap</p>
+                    <a href="https://www.instagram.com/thechangcuters/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/newjin.jpg">
+                <div class="layer">
+                    <h3>New Jeans</h3>
+                    <p>Hanni voice>>>>></p>
+                    <a href="https://www.instagram.com/newjeans_official/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/bruno.jpg">
+                <div class="layer">
+                    <h3>Bruno Mars</h3>
+                    <p>Saying HOWWW COULD SHE DO THIS TO ME</p>
+                    <a href="https://www.instagram.com/brunomars/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://open.spotify.com/user/31sd3uq7pzbnkqxdg2bcomsx6dau?si=7d31f5a91c4e4d15" class="btn"><i class="fa-brands fa-spotify"></i>Mampir spotify gwe sini <i class="fa-brands fa-spotify"></i></a>
+        
+        <!-- -----------Top Film-------- -->
+        <h1 class="sub-title">Top 3 film & series</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/film1.jpg">
+                <div class="layer">
+                    <h3>The Boys</h3>
+                    <p>Seru, udah</p>
+                    <a href="https://www.imdb.com/title/tt1190634/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/film2.jpg">
+                <div class="layer">
+                    <h3>Now You See Me</h3>
+                    <p>Provokator belajar sulap</p>
+                    <a href="https://www.imdb.com/title/tt1670345/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/film3.jpg">
+                <div class="layer">
+                    <h3>Arcane</h3>
+                    <p>Produk Riot gada yang gagal</p>
+                    <a href="https://www.imdb.com/title/tt11126994/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!-- -----contact----- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub_title">Kenalan bleh😋</h1>
+                <p><i class="fa-solid fa-envelope"></i></i>xenocider987@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>081210900323</p>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/deren.ryandi"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/whoisder_"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Made with <i class="fa-solid fa-brain"></i> by Deren.Ry</p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0"
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px"
+    }
+    
+
+</script>
+</body>
+</html>
